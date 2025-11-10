@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <!-- <h1>Welcome to the Weather App</h1>
+        <p>Get the latest weather updates for your location.</p> -->
+        <div class="weather-container">
+            <div class="temp">
+                <p>20</p>
+            </div>
+            <div class="time-location">
+                <p>Delhi</p>
+                <p>12:00 - Monday 2025-11-27</p>
+            </div>
+            <div class="weather-icon">
+                <!-- <img src="./icons/clear.svg" alt="weather icon"> -->
+                <p>Sunny</p>
+            </div>        
+        </div>
+    </div>
+
+    <nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search for a city..." class="search-city">
+            <button id="search-btn">Search</button>
+        </div>
+    </nav>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>

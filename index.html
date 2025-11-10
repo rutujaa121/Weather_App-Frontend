@@ -12,26 +12,26 @@
     <div class="container">
         <!-- <h1>Welcome to the Weather App</h1>
         <p>Get the latest weather updates for your location.</p> -->
-        <div class="weather-container">
+        <div class="weather_container">
             <div class="temp">
                 <p>20</p>
             </div>
-            <div class="time-location">
+            <div class="time_location">
                 <p>Delhi</p>
-                <p>12:00 - Monday 2025-11-27</p>
+                <span>12:00 - Monday 2025-11-27</span>
             </div>
-            <div class="weather-info">
-                <p></p>
+            <div class="weather_condition">
+                <!-- <p></p> -->
                 <p>Sunny</p>
             </div>        
         </div>
     </div>
 
     <nav>
-        <div class="search-box">
-            <input type="text" placeholder="Search for a City...">
-            <button id="search-btn">Search</button>
-        </div>
+        <form class="search-box">
+            <input type="text" placeholder="Search for a City..." class="search_field">
+            <input type="submit" value="Search" class="search_button">
+        </form>
     </nav>
 
     <script src="./script.js"></script>

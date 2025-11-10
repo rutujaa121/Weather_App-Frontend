@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
 }
-.weather-container{
+.weather_container{
     width: 400px;
     margin: auto;
     padding: 20px;
@@ -25,10 +25,10 @@
     font-size: 48px;
     font-weight: bold;
 }
-.time-location{
+.time_location{
     font-size: 18px;
 }
-.weather-info{
+.weather_condition{
     font-size: 16px;
 }
 input[type="text"]{
@@ -46,11 +46,14 @@ input[type="text"]::placeholder{
     color: #aaa;
     font-size: 16px;
 }
-button{
+input[type="submit"]{
     padding: 15px 20px;
     border: none;
     background-color: #007BFF;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #0056b3;
 }

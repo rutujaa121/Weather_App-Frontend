@@ -1,7 +1,7 @@
 // http://api.weatherapi.com/v1/current.json?key=a05c5c8f9fd2472298172343251011&q=Mumbai&aqi=no
 
 const temperatureField = document.querySelector(".temp");
-const locationField = document.querySelector(".time_location p");
+const locationField = document.querySelector(".time_location div");
 const dateandTimeField = document.querySelector(".time_location span");
 const weatherField = document.querySelector(".weather_condition p");
 const searchField = document.querySelector(".search_field");
